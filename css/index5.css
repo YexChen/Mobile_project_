@@ -1,19 +1,19 @@
 .box5{
-	width:90%;
+	width:100%;
 	margin: 0 auto;	
 	background: -webkit-linear-gradient(top,#7ea5dc 0,#98bbd2 47%,#aecec8 68%,#dbe8ac 100%);
 }
-.box5>div{
+.box5>.box5-n{
 	width:25%;
 	padding-top: 15%;
 	padding-bottom: 12%;
 	margin: 0 auto;
 }
-.box5>div img{
+.box5>.box5-n img{
 	width:100%;
 	text-align: center;	
 }
-.ani{
+.b5{
 	width:75%;
 	height: 5%;
 	margin: 0 auto;	
@@ -28,7 +28,7 @@
 .Landscape-change{
 	background-color: white;
 }
-.ani>em{ 
+.b5>em{ 
     position: absolute;
     top: 10px;
     left: 30px;
@@ -41,7 +41,7 @@
     margin-right: 5px;
     background-size: 60px auto;	
 }
-.ani>a{ 
+.b5>a{ 
 	color:white;	
 }
 .frame{
