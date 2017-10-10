@@ -1,9 +1,67 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index5.css"/>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			.swiper-container {
+    			width: 100%;
+    			height: 100vh;
+				}  
+		</style>
 	</head>
 	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					1
+				</div>
+				<div class="swiper-slide">
+					2
+				</div>
+				<div class="swiper-slide">
+					3
+				</div>
+				<div class="swiper-slide">
+					4
+				</div>
+				<div class="swiper-slide box5">
+					<div><img src="img/wzp_logo.png"/></div>
+					<p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.4s" swiper-animate-delay="0.2s">已有5人觉得这家公司值得加入</p>
+					<p class="ani frame Landscape-change" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.4s" swiper-animate-delay="0.3s"><em></em>点赞，值得加入</p>
+					<p class="ani frame" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.4s" swiper-animate-delay="0.4s"><a href="#">分享给好友</a></p>
+					<p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.4s" swiper-animate-delay="0.4s"><a href="#">查看跟多职位〉〉</a></p>
+				</div>
+				<div class="swiper-slide box6">
+					6
+				</div>
+			</div>
+			<div class="swiper-pagination">
+					
+			</div>
+		</div>
+		<script src="js/swiper-3.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+  onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+    swiperAnimateCache(swiper); //隐藏动画元素 
+    swiperAnimate(swiper); //初始化完成开始动画
+  }, 
+  direction: 'vertical',
+    loop: true,
+     paginationClickable: true,
+      mousewheelControl: true,
+    pagination: '.swiper-pagination',
+  onSlideChangeEnd: function(swiper){ 
+    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+  } 
+  })        
+ </script>
 	</body>
 </html>

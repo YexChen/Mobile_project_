@@ -1,0 +1,51 @@
+.box5{
+	width:90%;
+	margin: 0 auto;	
+	background: -webkit-linear-gradient(top,#7ea5dc 0,#98bbd2 47%,#aecec8 68%,#dbe8ac 100%);
+}
+.box5>div{
+	width:25%;
+	padding-top: 15%;
+	padding-bottom: 12%;
+	margin: 0 auto;
+}
+.box5>div img{
+	width:100%;
+	text-align: center;	
+}
+.ani{
+	width:75%;
+	height: 5%;
+	margin: 0 auto;	
+	padding-top:3%;
+	margin-bottom: 5%;
+	text-align: center;
+	display:block;
+	font-size:16px; 
+	color:white;	
+    position:relative;	
+}
+.Landscape-change{
+	background-color: white;
+}
+.ani>em{ 
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../img/p_ico_new.png);
+    background-position: -3px -242px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background-size: 60px auto;	
+}
+.ani>a{ 
+	color:white;	
+}
+.frame{
+    border: 1px solid white;	
+	border-radius: 22px; 
+	color:blue;	
+}
