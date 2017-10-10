@@ -1,0 +1,78 @@
+.box2 {
+    background: -webkit-linear-gradient(top,#595aa0 0,#5d7fd4 30%,#678fe4 53%,#7ba2de 70%,#afcfc8 100%);
+    }
+.icon {
+	display: flex;
+    padding-top: 11%;
+}
+.icon1,.icon2,.icon3 {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    padding: 12px;
+    border-radius: 100%;
+    background-color: rgba(255,255,255,.03);
+}
+.icon1 i{
+	width: 60px;
+	height: 62px;
+	background: url(../img/p_ico_new.png);
+	display: block;
+	background-size: 100% auto;
+}
+.icon2 i{
+	width: 60px;
+	height: 62px;
+	background: url(../img/p_ico_new.png);
+	display: block;
+	background-size: 100% auto;
+	background-position: 0 -65px
+}
+.icon3 i{
+	width: 60px;
+	height: 62px;
+	background: url(../img/p_ico_new.png);
+	display: block;
+	background-size: 100% auto;
+	background-position: 0 -130px
+}
+.icon li{
+	flex: 1;
+	float: left;
+	list-style-type: none;
+}
+
+.icon li p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.about_us_tit {
+    color: #fff;
+    font-size: 19px;
+    font-family: "黑体";
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    line-height: 30px;
+    padding-bottom: 10px;
+    margin: 25px 25px 0;
+}
+.about_us_tit i {
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    background: rgba(255,255,255,.36);
+    border-radius: 100%;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.about_us_msg_p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    display: -webkit-box;
+    overflow: hidden;
+    margin: 0 25px;
+}
