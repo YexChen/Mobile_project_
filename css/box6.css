@@ -1,0 +1,67 @@
+.box6{
+	background: -webkit-linear-gradient(top,#5b317a 0,#7a448e 46%,#a25b85 64%,#cc7478 82%,#e9896e 100%);
+}
+.logo-wzp{
+	width: 98px;
+	height: 98px;
+	background: url(../img/wzp_logo.png);
+	background-size: 100%;
+	margin: auto;
+	margin-top: 50px;
+}
+.search{
+	text-align: center;
+	top: 30px;
+	position: relative;
+    height: 43px;
+    line-height: 43px;
+    margin: 0 10px;
+    background: #643779;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-family: "黑体";
+}
+.foot-c{
+	display: block;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: 100px;
+    left: 22%;
+    right: 22%;
+}
+.foot-p{
+	color: #fff;
+    font-size: 12px;
+    text-align: center;
+    font-family: "黑体";
+    line-height: 25px;
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+    opacity: .6;
+}
+.foot-btn{
+	position: absolute;
+    bottom: -45px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50%;
+    height: 90px;
+    border-radius: 100%;
+    background: rgba(255,255,255,.18);
+    z-index: 900;
+}
+.foot-btn img{
+	display: block;
+    margin: 15px auto 0 auto;
+    width: 20px;
+    height: 15px;
+    z-index: 999;
+}
