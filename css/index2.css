@@ -1,4 +1,4 @@
-.box2 {
+﻿.box2 {
     background: -webkit-linear-gradient(top,#595aa0 0,#5d7fd4 30%,#678fe4 53%,#7ba2de 70%,#afcfc8 100%);
     }
 .icon {
@@ -48,6 +48,7 @@
     text-align: center;
     margin-top: 5px;
     overflow: hidden;
+    color: #fff;
 }
 .about_us_tit {
     color: #fff;
