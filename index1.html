@@ -11,14 +11,25 @@
 			.swiper-container {
     			width: 100%;
     			height: 100vh;
-				}  
+				}
+				.box{width: 100px;height: 100px;background: red;}  
 		</style>
+		<link rel="stylesheet" type="text/css" href="css/changjing1.css"/>
 	</head>
 	<body>
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide">
-					1
+				<div class="swiper-slide swiper-slide-bg">
+					<div class="logo ani"  swiper-animate-effect="fadeInRight" >
+						<div class="box1 ">
+							<div class="box2">
+								<img src="img/wzp_logo.png" alt=""/>
+							</div>
+						</div>
+					</div>
+					<h1 class="city ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">某同城公司</h1>
+					<p class="new-life ani" swiper-animate-effect="bounceInUp" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" >新生活，从新开始</p>
+					<div class="buildings ani" swiper-animate-effect="flip" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" ></div>
 				</div>
 				<div class="swiper-slide">
 					2
@@ -32,7 +43,7 @@
 				<div class="swiper-slide">
 					5
 				</div>
-				<div class="swiper-slide box6">
+				<div class="swiper-slide">
 					6
 				</div>
 			</div>
